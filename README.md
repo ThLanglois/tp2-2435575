@@ -1,4 +1,4 @@
-Travail pratique 2 - Git
+Travail pratique 2
 ==================
 Ce dépôt contient le code d’un projet web fait dans le cours de Perspective Professionnelles
 
