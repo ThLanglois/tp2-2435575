@@ -1,0 +1,152 @@
+/* Auteur: Thomas Langlois */
+
+.page {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(20, 147, 179);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(19, 69, 89);
+}
+
+body {
+    background-color: rgba(17, 91, 120);
+}
+
+header {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 40px;
+    align-items: center;
+    padding-left: 20px;
+    border: 2px solid rgb(6, 77, 105);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 2px solid rgb(6, 77, 105);
+}
+
+article {
+    display: flex;
+    gap: 15px; 
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: justify;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1.5fr 1.5fr;
+    text-align: center;
+}
+
+a {
+    color: rgb(23, 30, 156);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(21, 9, 112);
+    text-decoration: underline;
+}
+
+a:active {
+    color: white;
+    text-decoration: underline;
+}
+
+.home-section-one {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 30px;
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.section-image {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.connexion-box {
+    display: block;
+    height: 50px;
+    display: flex;
+    padding-left: 115px;
+    text-align: center;
+    align-items: center;
+    border-left: 2px solid rgb(6, 77, 105);
+}
+  
+.text-image {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.flexbox-form {
+    display: flex;
+    flex-direction: row;
+}
+
+textarea {
+    resize: none;
+}
+
+.border {
+    border: 2px solid rgb(6, 77, 105);
+}
+
+.padding-left {
+    padding-left: 15px;
+}
+
+.padding-right {
+    padding-right: 15px;
+}
+
+.padding-top {
+    padding-top: 10px;
+}
+
+.padding-bottom {
+    padding-bottom: 10px;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.section-size {
+    flex-basis: 50%;
+}
+
+.text-up {
+    display: flex;
+    align-items: flex-start;
+}
+
+.align-self-name {
+    grid-column: 3/3;
+    grid-row: 2/3;
+}
+
+.align-self-tp1 {
+    grid-column: 2/2;
+    grid-row: 2/2;
+}
+
+.align-self-code {
+    grid-column: 1/1;
+    grid-row: 2/2;
+}

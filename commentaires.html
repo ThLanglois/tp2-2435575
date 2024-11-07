@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!-- Auteur Thomas Langlois -->
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le soccer - Commentaires</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="page">
+    <header>
+        <a href="index.html"><img src="img/logo.png" alt="Retour vers l'accueil" title="Retour vers l'accueil"></a>
+        <h1 id="haut-de-page">Le soccer</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="galerie-images.html">Galerie Photo</a>
+        <a href="commentaires.html">Commentaires</a>
+        <a class ="connexion-box" href="connexion.html">Se connecter</a> 
+    </nav>
+
+    <main class="border">
+        <h2 class="padding-left">Commentaires</h2>
+        <form class="padding-left" action="mailto:langloisthomas97@gmail.com" method="post">
+            <div class="flexbox-form">
+
+                <div class="padding-top padding-bottom">
+                <label for="txtNom">*Nom:</label>
+                <input type="text" name="txtNom" id="txtNom" required>
+                </div>
+
+                <div class="padding-top padding-bottom">
+                <label for="txtPrenom">*Prénom:</label>
+                <input type="text" name="txtPrenom" id="txtPrenom" required>
+                </div>
+
+                <div class="padding-top padding-bottom">
+                <label for="txtEmail">*Courriel:</label>
+                <input type="email" name="txtEmail" id="txtEmail" required>
+                </div>
+
+                <div class="padding-top padding-bottom">
+                <label for="txtPhone">Téléphone:</label>
+                <input type="tel" name="txtPhone" id="txtPhone" placeholder="###-###-####">
+                </div>
+
+                <div class="padding-top padding-bottom">
+                <label for="txtBirth">Date de naissance:</label>
+                <input type="date" name="txtBirth" id="txtBirth">
+                </div>
+            </div>
+            <div class="padding-top padding-bottom">
+                <label for="liste">Province:</label>
+                <select name="liste" id="liste">
+                    <option value="AB">Alberta</option>
+                    <option value="BC">Colombie-Britannique</option>
+                    <option value="MB">Manitoba</option>
+                    <option value="NB">Nouveau-Brunswick</option>
+                    <option value="ON">Ontario</option>
+                    <option value="QC" selected>Québec</option>
+                </select>
+            </div>
+            <div>
+                <p>Joueur(s) préféré(s)</p>
+                <div>
+                <input type="checkbox" name="ronaldo" id="ronaldo">
+                <label for="ronaldo">Cristiano Ronaldo</label>
+                </div>
+
+                <div>
+                <input type="checkbox" name="messi" id="messi">
+                <label for="messi">Lionel Messi</label>
+                </div>
+
+                <div>
+                <input type="checkbox" name="mbappe" id="mbappe">
+                <label for="mbappe">Kylian Mbappe</label>
+                </div>
+
+                <div>
+                <input type="checkbox" name="haaland" id="haaland">
+                <label for="haaland">Erling Haaland</label>
+                </div>
+
+                <div>
+                <input type="checkbox" name="zidane" id="zidane">
+                <label for="zidane">Zinédine Zidane</label>
+                </div>
+            </div>
+            <div>
+                <p>Quelle note?</p>
+                <div>
+                <input type="radio" id="excellent" name="rating" value="excellent" checked>
+                <label for="excellent">Excellent</label>
+                </div>
+
+                <div>
+                <input type="radio" id="tbien" name="rating" value="tbien">
+                <label for="tbien">Très bien</label>
+                </div>
+
+                <div>
+                <input type="radio" id="moyen" name="rating" value="moyen">
+                <label for="moyen">Moyen</label>
+                </div>
+
+                <div>
+                <input type="radio" id="bof" name="rating" value="bof">
+                <label for="bof">Bof</label>
+                </div>
+
+                <div class="padding-top">
+                    <label class ="text-up" for="comments">Commentaires:</label>
+                    <textarea id="comments" name="comments" rows="7" cols="50"></textarea>
+                </div>
+            </div>
+
+            <div  class="padding-top padding-bottom">
+                <input type="submit" value="Envoyer les commentaires">
+            </div>
+        </form>
+    </main>
+
+    <footer class="border">
+        <p><a href="#haut-de-page">Haut de la page</a></p> <p>Copyright 2024</p>
+        <p class="align-self-code">420-W11-SF</p> <p class="align-self-tp1">Travail pratique 1</p> <p class="align-self-name">Thomas Langlois</p>
+    </footer>
+    </div>
+</body>
+</html>
